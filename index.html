@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh-CN" style="color-scheme: dark;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rola - Product Designer</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="shortcut icon" href="./assets/public/favicon.svg"/>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</head>
+<body>
+    <canvas class="fireworks"></canvas>
+    <div class="head">
+        <div class="main">
+            <a href="./index.html" class="logo"><img src="./assets/public/logo_text.svg"></a>
+            <div class="menu">
+                <li class="magical btn nav" onclick="window.location.href='./index.html'">Home</li>
+                <li class="magical btn" onclick="window.location.href='./blog.html'">Blog</li>
+                <li class="magical btn" onclick="window.location.href='./about.html'">About</li>
+            </div>
+            <div class="menu" id="menu-expand">
+                <li class="magical btn skin" id="menu-expand-child"><i class="icon menu-icon"></i></li>
+            </div>
+            <div id="menu-panel">
+                <div class="menu-panel-content">
+                    <li class="magical btn nav" onclick="window.location.href='./index.html'">Home</li>
+                    <li class="magical btn" onclick="window.location.href='./blog.html'">Blog</li>
+                    <li class="magical btn" onclick="window.location.href='./about.html'">About</li>
+                </div>
+            </div>
+        </div>
+        <blockquote><img src="./assets/public/logo.svg"></blockquote>
+    </div>
+    <div class="index">
+        <div class="hello">
+            <div class="title">
+                <div class="title-hi">Hi, I'm</div>
+                <a class="title-name" href="http://127.0.0.1:5501/index.html">Rola</a>
+            </div>
+            <div class="hello-desc" id="typed"></div>
+        </div>
+        <div class="content-divider"></div>
+        <div class="quickly-link">
+            <div class="title-hi">What did I do</div>
+            <div class="loader"></div>
+            </div>
+        <div class="work">
+            <div class="card-list">
+                <div class="magical item">
+                    <a href="https://works.meiye.art/G921701c398015B0" target="_blank">
+                        <div class="dark"><img class="cover" src="./assets/work/empty.png"></div>
+                        <div class="text">
+                            <div class="title-area">
+                                <div class="title">
+                                    <div class="name">2023作品集</div>
+                                    <div class="name link"> ↗</div>
+                                </div>
+                                <div class="tag tag-2b">Work</div>
+                            </div>
+                            <div class="desc">数据安全、小程序适老化</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="magical item">
+                    <a target="_blank">
+                        <div class="dark"><img class="cover" src="./assets/work/3.png"></div>
+                        <div class="text">
+                            <div class="title-area">
+                                <div class="title">
+                                    <div class="name">B端</div>
+                                    <div class="name link"> ↗</div>
+                                </div>
+                                <div class="tag tag-web">To B</div>
+                            </div>
+                            <div class="desc">数据安全、PRM系统、智慧城市等</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="magical item">
+                    <a target="_blank">
+                        <div class="dark"><img class="cover" src="./assets/work/5.png"></div>
+                        <div class="text">
+                            <div class="title-area">
+                                <div class="title">
+                                    <div class="name">移动端</div>
+                                    <div class="name link"> ↗</div>
+                                </div>
+                                <div class="tag tag-assets">小程序</div>
+                            </div>
+                            <div class="desc">APP、H5、小程序等</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="magical item">
+                    <a target="_blank">
+                        <div class="dark"><img class="cover" src="./assets/work/4.png"></div>
+                        <div class="text">
+                            <div class="title-area">
+                                <div class="title">
+                                    <div class="name">Web端</div>
+                                    <div class="name link"> ↗</div>
+                                </div>
+                                <div class="tag tag-app">App</div>
+                            </div>
+                            <div class="desc">数据大屏、企业官网等</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="magical item">
+                    <a target="_blank">
+                        <div class="dark"><img class="cover" src="./assets/work/2.png"></div>
+                        <div class="text">
+                            <div class="title-area">
+                                <div class="title">
+                                    <div class="name">设计资产-持续更新中</div>
+                                </div>
+                                <div class="tag tag-other">Assets</div>
+                            </div>
+                            <div class="desc">设计系统、可视化组件等</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="magical item">
+                    <a target="_blank">
+                        <div class="dark"><img class="cover" src="./assets/work/1.png"></div>
+                        <div class="text">
+                            <div class="title-area">
+                                <div class="title">
+                                    <div class="name">Waiting...</div>
+                                    <div class="name link"> ↗</div>
+                                </div>
+                                <div class="tag tag-other">Other</div>
+                            </div>
+                            <div class="desc">期待与您的合作和共建</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="widget">  
+            <div class="shape-light"></div>
+            <div class="shape-star">
+                <div class="rising-stars rising-stars-visible">
+                    <div style="height:1px;width:1px"></div>
+                    <div style="height:2px;width:2px"></div>
+                    <div style="height:1px;width:1px"></div>
+                </div>
+            </div>
+            <div class="shape-earth"></div>
+        </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="copyright">
+            <div>© 2024 Design by <a href="http://127.0.0.1:5500/index.html" target="_blank">Rola_o</a></div>
+            <span>|</span>
+            <div class="fillings">
+                <a href="http://127.0.0.1:5500/index.html" target="_blank">Rola_o</a>
+            </div>
+            <span>|</span>
+            <div class="friends">
+                <a href="https://zdo.fun/" target="_blank">ZDO</a>
+            </div>
+        </div>
+    </div>
+    <div class="widget">
+        <div class="shape-light"></div>
+        <div class="shape-star">
+            <div class="rising-stars rising-stars-visible">
+                <div style="height:1px;width:1px"></div>
+                <div style="height:2px;width:2px"></div>
+                <div style="height:1px;width:1px"></div>
+            </div>
+        </div>
+        <div class="shape-earth"></div>
+    </div>
+</body>
+<script>
+    // 打字效果，感谢 typed.js: https://mattboldt.github.io/typed.js/docs/
+    const options = {
+        strings: [
+            ">_ welcome to my secret garden ^1000",
+            ">_ and let's explore it now ^1000",
+        ],
+        typeSpeed: 50, // 打印速度
+        backSpeed: 20, // 回退速度
+        startDelay: 300, // 开始之前的延迟300毫秒
+        loop: true, // 是否循环
+        showCursor: false, // 不显示光标
+    };
+    const typed = new Typed('#typed', options);
+</script>
+<script src="./js/main.min.js"></script>
+<script src='./js/anime.js'></script>
+<script src='./js/firework.js'></script>
+</html>

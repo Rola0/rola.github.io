@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="zh-CN" style="color-scheme: dark;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rola - About Me</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="shortcut icon" href="./assets/public/favicon.svg"/>
+</head>
+<body>
+    <canvas class="fireworks"></canvas>
+    <div class="head">
+        <div class="main">
+            <a href="./index.html" class="logo"><img src="./assets/public/logo_text.svg"></a>
+            <div class="menu">
+                <li class="magical btn" onclick="window.location.href='./index.html'">Home</li>
+                <li class="magical btn" onclick="window.location.href='./blog.html'">Blog</li>
+                <li class="magical btn nav" onclick="window.location.href='./about.html'">About</li>
+            </div>
+            <div class="menu" id="menu-expand">
+                <li class="magical btn skin" id="menu-expand-child"><i class="icon menu-icon"></i></li>
+            </div>
+            <div id="menu-panel">
+                <div class="menu-panel-content">
+                    <li class="magical btn" onclick="window.location.href='./index.html'">Home</li>
+                    <li class="magical btn" onclick="window.location.href='./work.html'">Work</li>
+                    <li class="magical btn" onclick="window.location.href='./blog.html'">Blog</li>
+                    <li class="magical btn nav" onclick="window.location.href='./about.html'">About</li>
+                </div>
+            </div>
+        </div>
+        <blockquote><img src="./assets/public/logo.svg"></blockquote>
+    </div>
+    <div class="about">
+        <div class="about-top">
+            <div class="about-name">余仕慧 (Rola)</div>
+            <div class="about-info">
+                <div class="about-info-left">
+                    <div class="about-info-title">介绍</div>
+                    <div class="introduce-desc">
+                        我目前是一名产品设计师，拥有云计算、数据安全、网络安全、智慧+、政务、电商、web3等多行业洞察与实践落地经验<br><br>
+                        我专注于探索产品设计的价值观，在极致的设计、交互与技术包容、业务理解之间寻求平衡以解决问题，持续写作与分享<br><br>
+                        工作之余也热爱生活，羽毛球、公路车、游泳、摄影都有所涉略
+                    </div>
+                </div>
+                <div class="about-info-right">
+                    <div class="contact">
+                        <div class="about-info-title">联系</div>
+                        <div class="contact-desc">
+                            <div class="list">
+                                <div class="list-label">Email：</div>
+                                <div href="javascript:" class="list-value" id="email" tabindex="0" role="button"  title="点击复制邮箱">
+                                    <a id="emailCopied">3075310541@qq.com</a>
+                                </div>
+                                <span class="list-value copied">copied&nbsp;✓</span>
+                            </div>
+                            <div class="list">
+                                <div class="list-label">Wechat：</div>
+                                <div class="list-value">
+                                    <a class="tooltip">Rola_o
+                                        <div class="tooltip-box">
+                                            <img src="./assets/about/wechat.png">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="resume">
+                        <div class="about-info-title resume-title">简历</div>
+                        <div class="resume-desc">
+                            <div class="resume-desc-helptext">下载我的简历 (PDF & 1MB)</div>
+                            <div class="magical resume-btn"><a href="http://127.0.0.1:5500/about.html" target="_blank">Download</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-middle">
+            <div class="power">
+                <div class="list-00">
+                    <div class="magical power-card-number">
+                        <a>
+                            <div class="card-title">4</div>
+                            <div class="card-text">Work</div>
+                        </a>
+                    </div>
+                    <div class="magical power-card-number">
+                        <a>
+                            <div class="card-title">30⁺</div>
+                            <div class="card-text">Project</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="list-01">
+                    <div class="magical power-card">
+                        <a>
+                            <div class="card-img" style="background-image: url('./assets/about/abstract.svg')"></div>
+                            <div class="card-text">结构、系统化设计思维，注重逻辑与数据驱动</div>
+                        </a>
+                    </div>
+                    <div class="magical power-card">
+                        <a>
+                            <div class="card-img" style="background-image: url('./assets/about/menu.svg')"></div>
+                            <div class="card-text">系统化设计资产落地经验，深耕设计系统领域</div>
+                        </a>
+                    </div>
+                    <div class="magical power-card">
+                        <a>
+                            <div class="card-img" style="background-image: url('./assets/about/code.svg')"></div>
+                            <div class="card-text">拥有基础开发思维，更好协助产研团队多方协作</div>
+                        </a>
+                    </div>
+                    <div class="magical power-card">
+                        <a>
+                            <div class="card-img" style="background-image: url('./assets/about/pen.svg')"></div>
+                            <div class="card-text">丰富的B、C、G端多行业产品设计经验</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-bottom">
+            <div class="experience">
+                <div class="item">
+                    <div class="time">❖ 2023.2 ~ 至今</div>
+                    <div class="name">
+                        <div class="company"><a href="https://www.zhong-shu.com/#/home" target="_blank">中数（深圳）时代科技有限公司 ↗</a></div>
+                        <div class="job">UI/UX 设计负责人</div>
+                    </div>
+                    <div class="project-experience">
+                        <div class="item">
+                            <div class="title">数据出境分析管理平台、数据海关、DSMP、隐私计算平台等系列产品</div>
+                            <div class="desc">
+                                <ul>
+                                    <li>0-1 负责平台的设计工作，与产品经理共同规划产品需求，输出可行性设计方案并落地</li>
+                                </ul>
+                                <ul>
+                                    <li>负责前期协助产品经理梳理核心流程、权限设计等工作，输出模块化的组件及变体，提升产研团队协作效率</li>
+                                </ul>
+                                <ul>
+                                    <li>通过小插画+操作流程指引、可视化组件等方式，解决不同角色用户对平台使用成本高和认知门槛高的问题，打破固有的“用户必须是专业人士”的思维</li>
+                                </ul>
+                                <ul>
+                                    <li>沉淀可被同类产品复用的一体机/分布式部署流程，制定标准化布局框架及交互模式等</li>
+                                </ul>
+                                <ul>
+                                    <li>主导设计核心流程交互方式、组件库搭建，并提供如表单引擎、流程引擎、world编辑器工作流等底层功能的设计方案，并为后续功能拓展打下基础</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="title">深圳市地铁核心运营管理平台</div>
+                            <div class="desc">
+                                <ul>
+                                    <li>负责平台 1-2 新增业务功能的流程设计并落地，且后续完善优化工作</li>
+                                </ul>
+                                <ul>
+                                    <li>对平台原部分业务流程进行优化和升级，包括审核流程、“最后一公里”、“我的项目”等业务流程</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="title">深铁志愿者小程序</div>
+                            <div class="desc">
+                                <ul>
+                                    <li>根据前期对接需求方，负责小程序整体适老化方案的可行性和落地工作</li>
+                                </ul>
+                                <ul>
+                                    <li>独立负责适老化方案的视觉、交互设计工作，协助研发团队，确保落地质量</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="time">❖ 2021.07 ~ 2023.02</div>
+                    <div class="name">
+                        <div class="company"><a target="_blank">深圳市博纳时代网络技术有限公司 </a></div>
+                        <div class="job">UI/UX 设计师</div>
+                    </div>
+                    <div class="project-experience">
+                        <div class="item">
+                            <div class="title">蚂蚁数藏、Kapour！、瀑乡新阶层等移动端</div>
+                            <div class="desc">
+                                <ul>
+                                    <li>负责产品的视觉及交互工作，包括商城、聊天室、会员、活动等模块</li>
+                                    <li>负责后续迭代及优化工作，并配合运营制定对应的活动界面，如七夕节、情人节、双十一等</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="title">智慧水务平台（可视化大屏）</div>
+                            <div class="desc">
+                                <ul>
+                                    <li>前期负责与产品经理共同收集和梳理产品功能需求，制定视觉和交互方案</li>
+                                    <li>制作设计文档、交互文档，制定交互方式如地图交互、图表组件、风险预估、泵站信息等</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="copyright">
+            <div>© 2024 Design by <a href="http://127.0.0.1:5500/index.html" target="_blank">Rola_o</a></div>
+            <span>|</span>
+            <div class="fillings">
+                <a href="http://127.0.0.1:5500/index.html" target="_blank">Rola_o</a>
+            </div>
+            <span>|</span>
+            <div class="friends">
+                <a href="https://zdo.fun/" target="_blank">ZDO</a>
+            </div>
+        </div>
+    </div>
+    <div class="widget">
+        <div class="shape-light"></div>
+        <div class="shape-star">
+            <div class="rising-stars rising-stars-visible">
+                <div style="height:1px;width:1px"></div>
+                <div style="height:2px;width:2px"></div>
+                <div style="height:1px;width:1px"></div>
+            </div>
+        </div>
+        <div class="shape-earth"></div>
+    </div>
+</body>
+<script src="./js/main.min.js"></script>
+<script src='./js/anime.js'></script>
+<script src='./js/firework.js'></script>
+</html>
